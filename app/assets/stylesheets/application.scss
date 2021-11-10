@@ -11,3 +11,28 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+.container {
+  width: 45%;
+  margin-top: 1em;
+
+  h1 {
+    font-weight: bold;
+  }
+
+  .reviews {
+    h3 {
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+    .review {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 1em;
+    }
+  }
+
+  .new_restaurant {
+    margin: 0;
+  }
+}
