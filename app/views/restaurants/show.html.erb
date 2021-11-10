@@ -11,5 +11,7 @@
     <hr>
   <% end %>
 </div>
-<%= link_to "Add a comment", new_restaurant_review_path(@restaurant), class: "btn btn-primary" %>
+<div class="add-new-review">
+  <%= render 'reviews/form', review: @review %>
+</div>
 <%= link_to "All restaurants", restaurants_path, class: "btn btn-secondary" %>
